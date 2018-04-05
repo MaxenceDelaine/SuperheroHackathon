@@ -1,0 +1,52 @@
+@font-face {
+    font-family: heroes;
+    src: url("../font/heroes.ttf");
+}
+
+@font-face {
+    font-family: heroeshollow;
+    src: url("../font/heroeshollow.ttf");
+}
+
+#myVideo {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 50px;
+}
+
+.btn {
+  font-family: heroes;
+  color: black;
+  font-size: 25px;
+  padding:10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: heroes;
+  color: yellow;
+  font-size: 25px;
+  padding-bottom: 30px;
+  line-height: 40px;
+}
+
+.logocaptain {
+  height: 25vw;
+  position: absolute;
+  margin: auto;
+  display: block;
+  top: 10vh;
+  left: 0;
+  right: 0;
+}
