@@ -20,6 +20,9 @@ fetch('https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/id/' + Math.floor((
 	<div class="row justify-content-center">
 		<div class="col-3 left">
 		  <h2 class="heroname">${hero.name}</h2>
+			<div class="progress">
+  		<div class="progress-bar progress-bar-striped progress-bar-animated pbleft" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+			</div>
 		  <img alt="${hero.name}'s photo" src="${hero.images.md}" />
 			<p class="specstitle"><strong>Specs:</strong></p>
 			<p class="specs">Intelligence: ${hero.powerstats.intelligence}</p>
@@ -36,15 +39,18 @@ fetch('https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/id/' + Math.floor((
 			<a href="#" class="btn3 btn-primary">Distance</a>
 		</div>
 		<div class="col-3 right">
-		<h2 class="heroname">${hero.name}</h2>
-		<img alt="${hero.name}'s photo" src="${hero.images.md}" />
-		<p class="specstitle"><strong>Specs:</strong></p>
-		<p class="specs">Intelligence: ${hero.powerstats.intelligence}</p>
-		<p class="specs">Strength: ${hero.powerstats.strength}</p>
-		<p class="specs">Speed: ${hero.powerstats.speed}</p>
-		<p class="specs">Durability: ${hero.powerstats.durability}</p>
-		<p class="specs">Power: ${hero.powerstats.power}</p>
-		<p class="specs">Combat: ${hero.powerstats.combat}</p>
+			<h2 class="heroname">${hero.name}</h2>
+			<div class="progress right">
+			<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger pbright" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%"></div>
+			</div>
+			<img alt="${hero.name}'s photo" src="${hero.images.md}" />
+			<p class="specstitle"><strong>Specs:</strong></p>
+			<p class="specs">Intelligence: ${hero.powerstats.intelligence}</p>
+			<p class="specs">Strength: ${hero.powerstats.strength}</p>
+			<p class="specs">Speed: ${hero.powerstats.speed}</p>
+			<p class="specs">Durability: ${hero.powerstats.durability}</p>
+			<p class="specs">Power: ${hero.powerstats.power}</p>
+			<p class="specs">Combat: ${hero.powerstats.combat}</p>
 		</div>
 	</div>
     `
