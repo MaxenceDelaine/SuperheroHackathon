@@ -26,7 +26,7 @@ body {
   text-shadow:5px 5px 0.5em black;
 }
 
-.heroname {
+.heroname, .heroname2 {
   font-family: heroes;
   color: red;
   font-size: 25px;
@@ -85,4 +85,8 @@ body {
   top: 68%;
   transform: translateY(-50%);
   text-align: center;
+}
+
+.HP{
+  color: white;
 }

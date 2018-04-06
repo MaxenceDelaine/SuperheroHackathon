@@ -16,24 +16,24 @@ let combat = ${hero.powerstats.combat} /*valeur du paramètre Comnbat importée 
 let AP = calculateAP() /* création de la variable liée aux points d'attaque */
 let HP = durability * 2 /* création de la variable liée aux points de vie */
 
-/*Tableau contenant les différents modes de combat */
-let combatMode = ['Close', 'Zone', 'Distance']
 
-/*Création de la fonction permettant de calculer la valeur des points d'attaque (variable AP)*/
-function calculateAP() {
-  if (combatMode[0]) {
-    result = Math.trunc(((combat * strength) / 100))
-    return result
-  }
-  if (combatMode[1]) {
-    result = Math.trunc(((power * strength) / 100))
-    return result
-  }
-  if (combatMode[2]) {
-    result = Math.trunc(((combat * power) / 100))
-    return result
-  }
+
+
+
+function closeComb(){
+  result = Math.trunc(((combat * strength) / 100))
+  return result
 }
 
+function zoneComb(){
+  result = Math.trunc(((power * strength) / 100))
+  return result
+}
+
+function distComb(){
+  result = Math.trunc(((combat * power) / 100))
+  return result
+}
+
+
 /* Création d'une fonction correspondant à la gestion de l'attaque pendant un combat */
-SHHHHIIIIIIITTTTTTTTTTTTTTT
