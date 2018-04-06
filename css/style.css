@@ -8,6 +8,8 @@
     src: url("../font/heroeshollow.ttf");
 }
 
+/* HOME PAGE */
+
 #myVideo {
    position: fixed;
    right: 0;
@@ -49,4 +51,24 @@ h1 {
   top: 10vh;
   left: 0;
   right: 0;
+}
+
+/* RULES PAGE */
+
+#bodyrules {
+  background-color: black;
+}
+
+.workinprogress {
+  width: 50%;
+  position: absolute;
+  margin: auto;
+  display: block;
+  top: 20vh;
+  left: 0;
+  right: 0;
+}
+
+#wiptext {
+  padding-top: 5vh;
 }

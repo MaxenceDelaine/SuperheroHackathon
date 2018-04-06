@@ -1,0 +1,88 @@
+@font-face {
+    font-family: heroes;
+    src: url("../font/heroes.ttf");
+}
+
+@font-face {
+    font-family: knife;
+    src: url("../font/knife.ttf");
+}
+
+body {
+  /* background-color:rgb(26, 0, 0); */
+  background-image: url(https://i.imgur.com/mc1SHbe.gif);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title {
+  font-family: knife;
+  color: rgb(201, 64, 34);
+  font-size: 5vw;
+  padding:50px;
+  text-align: center;
+  text-shadow:5px 5px 0.5em black;
+}
+
+.heroname {
+  font-family: heroes;
+  color: red;
+  font-size: 25px;
+  padding:10px;
+}
+
+.specstitle {
+  font-family: heroes;
+  color: yellow;
+  font-size: 18px;
+  padding-top: 72px;
+}
+
+.specs {
+  font-family: heroes;
+  color: white;
+  font-size: 12px;
+}
+
+.left {
+  text-align:left;
+}
+
+.right {
+  text-align:right;
+}
+
+#vsimage {
+  width:300px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.btn1 {
+  width:100%;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.btn2 {
+  width:100%;
+  position: absolute;
+  top: 64%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.btn3 {
+  width:100%;
+  position: absolute;
+  top: 68%;
+  transform: translateY(-50%);
+  text-align: center;
+}
