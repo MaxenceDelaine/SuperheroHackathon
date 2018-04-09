@@ -37,7 +37,7 @@ body {
   font-family: heroes;
   color: yellow;
   font-size: 18px;
-  padding-top: 72px;
+  padding-top: 55px;
 }
 
 .specs {
@@ -58,35 +58,73 @@ body {
   width:300px;
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 20%;
   transform: translateY(-50%);
   text-align: center;
+}
+
+.btn {
+  font-family: heroes;
+  color: black;
+  font-size: 15px;
+  padding:10px;
+  height:40px;
 }
 
 .btn1 {
-  width:100%;
   position: absolute;
-  top: 60%;
-  transform: translateY(-50%);
-  text-align: center;
+  top:60%;
+  padding:10px;
+  left:0%;
+  opacity: 1 !important;
 }
 
 .btn2 {
-  width:100%;
   position: absolute;
-  top: 64%;
-  transform: translateY(-50%);
-  text-align: center;
+  top:60%;
+  padding:10px;
+  left:50%;
 }
 
 .btn3 {
-  width:100%;
   position: absolute;
-  top: 68%;
-  transform: translateY(-50%);
-  text-align: center;
+  top:60%;
+  padding:10px;
+  left:80%;
 }
 
 .HP{
+  font-family: heroes;
   color: white;
+  font-size: 15px;
+}
+
+.HP2{
+  font-family: heroes;
+  color: white;
+  font-size: 15px;
+}
+
+.textCombat {
+  background-color:white;
+  opacity: 0.75;
+  height:280px;
+  width:500px;
+  position:absolute;
+  top:68%;
+  left:0%;
+  padding-top:20px;
+  border-radius: 10px;
+  overflow-y:scroll;
+}
+
+.textCombat p {
+  text-align: center;
+  font-family:heroes;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.yellow {
+  color:yellow;
 }

@@ -3,28 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Spiderman Fight Club</title>
+    <!-- CDN WICKED CSS -->
+    <link rel="stylesheet" href="css/wickedcss.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style2.css">
+    <audio src="music/master.mp3" autoplay></audio>
   </head>
   <body>
 
     <div class="container-fluid">
 
       <h1 id="title">Spiderman Fight Club</h1>
-      <div class="row">
-      <div class="col-4" id="main">
-        <!-- ON VA INSERER DU HTML ICI -->
-      </div>
+      <div class="row justify-content-center">
+        <div class="col-3 left" id="main">
+        </div>
 
-      <div class="col-4 center">
-  		  <img id="vsimage" src="img/vs.png" alt="vs"/>
-  			<a href="#" class="btn btn-danger close">Close combat</a>
-        <a href="#" class="btn btn-warning zone">Melee</a>
-  			<a href="#" class="btn btn-primary distance">Distance</a>
-  		</div>
+        <div class="col-3 center">
+    		  <img id="vsimage" src="img/vs.png" alt="vs"/>
+    			<a href="#" class="btn btn-danger close btn1">Close combat</a>
+          <a href="#" class="btn btn-warning zone btn2">Melee</a>
+    			<a href="#" class="btn btn-primary distance btn3">Distance</a>
+          <div class="textCombat">
+          </div>
+    		</div>
 
-      <div class="col-4 right" id="main2">
-
+        <div class="col-3 right" id="main2">
+        </div>
       </div>
     </div>
 
@@ -35,6 +39,8 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- LE SCRIPT QUI CONTIENT NOTRE APPLI JS -->
     <script src="js/app.js"></script>
+    <script>
+    </script>
 
   </body>
 </html>
