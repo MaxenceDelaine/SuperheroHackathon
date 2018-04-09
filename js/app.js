@@ -114,18 +114,18 @@ fetch('https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/id/' + Math.floor((
 		let attackdistance = $('.power').text()
 
 		$('.close').click(function(i){
-			let elem = '<p style="color:red;">' + player2 + ' colle une mandale à '+ player1 + ' et lui inflige '+ attackclose.split(' ')[1] + ' dégats'+'</p>'
+			let elem = '<p style="color:red;">' + player1 + ' colle une mandale à '+ player2 + ' </br> et lui inflige '+ attackclose.split(' ')[1] + ' dégats'+'</p>'
 			$(elem).appendTo('.textCombat')
 			$('.effect2').removeClass('barrelRoll').addClass('shake')
 
 		})
 		$('.zone').click(function(i){
-			let elem = '<p style="color:orange;">' + player1 + ' s\'énerve, le sol tremble! '+ player2 + ' perd ' + attackzone.split(' ')[1] + ' dégats' + '</p>'
+			let elem = '<p style="color:orange;">' + player1 + ' s\'énerve, le sol tremble! </br>'+ player2 + ' perd ' + attackzone.split(' ')[1] + ' dégats' + '</p>'
 			$(elem).appendTo('.textCombat')
 			$('.effect2').removeClass('shake').addClass('rollerRight')
 		})
 		$('.distance').click(function(i){
-			let elem = '<p style="color:blue;">' + player2 + ' se prend une flèche dans le c*l! '+ player2 + ' perd '+ attackdistance.split(' ')[1] +' PV' + '</p>'
+			let elem = '<p style="color:blue;">' + player2 + ' se prend une flèche dans le c*l! </br>'+ player2 + ' perd '+ attackdistance.split(' ')[1] +' PV' + '</p>'
 			$(elem).appendTo('.textCombat')
 			$('.effect2').removeClass('rollerRight').addClass('barrelRoll')
 		})
